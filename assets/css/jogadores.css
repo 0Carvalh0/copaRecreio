@@ -18,6 +18,10 @@
 }
 
 body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
     background-color: #f1f1f1;
 }
 
@@ -26,6 +30,7 @@ a {
 }
 
 header {
+    align-self: stretch;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -63,6 +68,11 @@ header p {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
 }
 
 main ul li {
