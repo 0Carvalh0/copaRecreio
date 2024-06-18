@@ -45,6 +45,10 @@ header .divIcon {
     height: 24px;
 }
 
+#logoTimeTitle {
+    width: 80px;
+}
+
 header .divIcon i {
     margin: 4px;
     font-size: 20px;
