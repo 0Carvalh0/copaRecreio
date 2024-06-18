@@ -5,7 +5,7 @@ async function fetchData() {
   function createTeams() {
     const listTeams = document.querySelector("#main__listTeams");
     teamsList.forEach((element) => {
-      const teamStructure = `<a href="./jogadores.html"><li><img src="${element.teamLogo}" alt="Logo do time"><p>${element.teamName}</p></li></a>`;
+      const teamStructure = `<button type="button" class="teamButton"><li class="teamButton"><img src="${element.teamLogo}" alt="Logo do time"><p>${element.teamName}</p></li></button>`;
       listTeams.innerHTML += teamStructure;
     });
   }

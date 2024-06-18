@@ -1,5 +1,5 @@
 async function fetchData() {
-  const res = await fetch("./assets/json/playersTeam01.json");
+  const res = await fetch("./assets/json/playersCorinthians.json");
   const playersList = await res.json();
 
   function createPlayers() {
