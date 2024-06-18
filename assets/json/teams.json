@@ -1,0 +1,26 @@
+[
+    {
+        "teamName": "Corinthians",
+        "teamLogo": "./assets/images/teamsLogos/cor.png"
+    },
+    {
+      "teamName": "São Paulo",
+      "teamLogo": "./assets/images/teamsLogos/spfc.png"
+    },
+    {
+      "teamName": "Fluminense",
+      "teamLogo": "./assets/images/teamsLogos/flu.png"
+    },
+    {
+      "teamName": "Palmeiras",
+      "teamLogo": "./assets/images/teamsLogos/pal.png"
+    },
+    {
+      "teamName": "Esporte Clube Bahia",
+      "teamLogo": "./assets/images/teamsLogos/bah.png"
+    },
+    {
+      "teamName": "Sport Club Internacional",
+      "teamLogo": "./assets/images/teamsLogos/interrs.png"
+    }
+]

@@ -35,7 +35,7 @@ header {
 
 .logoSite {
     z-index: 1;
-    width: 200px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -59,7 +59,7 @@ header {
     flex-flow: column;
     align-items: flex-end;
     gap: 8px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, .5);
     color: var(--color03);
 }

@@ -85,6 +85,10 @@ ul li:last-child {
   border-bottom: 1px solid var(--color03);
 }
 
+ul li img {
+  width: 70px;
+}
+
 a {
   text-decoration: none;
   color: var(--color01);
