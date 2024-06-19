@@ -1,8 +1,15 @@
 async function fetchData() {
-  const res = await fetch("./assets/json/playersCorinthians.json");
-  const playersList = await res.json();
+  const res = await fetch("./assets/json/teams.json");
+  const teamsList = await res.json();
+  const teamNameTitle = document.querySelector("#teamNameTitle").innerHTML;
 
-  function createPlayers() {
+  teamsList.forEach((element) => {
+    if (element.teamName == teamNameTitle) {
+      createPlayers(element.players);
+    }
+  });
+
+  function createPlayers(playersList) {
     const listPlayers = document.querySelector("#main__listPlayers");
     playersList.forEach((element) => {
       const playerStructure = `<li>
@@ -23,11 +30,10 @@ async function fetchData() {
           </div>
           <i class="fa-regular fa-bell"></i>
         </li>`;
+
       listPlayers.innerHTML += playerStructure;
     });
   }
-
-  createPlayers();
 }
 
 fetchData();
