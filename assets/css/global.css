@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Soccer League";
+  src: url(../fonts/SoccerLeague.ttf);
+}
+
+:root {
+  --color01: #252323;
+  --color02: #4a6fa5;
+  --color03: #bdd5ea;
+  --color04: #d2e59e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  background-color: #f1f1f1;
+}
+
+a,
+button {
+  all: unset;
+}
