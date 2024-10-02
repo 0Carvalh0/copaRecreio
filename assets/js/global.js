@@ -6,7 +6,7 @@ document.addEventListener("click", (e) => {
     const teamLogo = targetEl.querySelector(".logoTime").getAttribute("src");
     localStorage.setItem("teamName", teamName);
     localStorage.setItem("teamLogo", teamLogo);
-    window.location.replace("./jogadores.html");
+    window.location.replace("./players.html");
   }
 });
 
