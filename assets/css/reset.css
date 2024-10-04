@@ -7,16 +7,21 @@
   box-sizing: border-box;
 }
 
-button, a {
-    all: unset;
+button,
+a {
+  all: unset;
+  cursor: pointer;
 }
 
 input[type="number"] {
-    -moz-appearance: textfield;
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Set default font settings */

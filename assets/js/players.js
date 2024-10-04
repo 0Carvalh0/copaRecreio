@@ -1,42 +1,11 @@
 // Dados de exemplo
-const players = [
-  {
-    id: 1,
-    teamId: 1,
-    name: "Jogador 1",
-    number: 10,
-    age: 25,
-    country: "Brasil",
-    photo: "https://via.placeholder.com/60",
-  },
-  {
-    id: 2,
-    teamId: 1,
-    name: "Jogador 2",
-    number: 7,
-    age: 28,
-    country: "Argentina",
-    photo: "https://via.placeholder.com/60",
-  },
-  {
-    id: 3,
-    teamId: 2,
-    name: "Jogador 3",
-    number: 9,
-    age: 22,
-    country: "Portugal",
-    photo: "https://via.placeholder.com/60",
-  },
-  {
-    id: 4,
-    teamId: 3,
-    name: "Jogador 4",
-    number: 11,
-    age: 26,
-    country: "Espanha",
-    photo: "https://via.placeholder.com/60",
-  },
-];
+let players = [];
+
+async function fetchData() {
+  const response = await fetch("../json/players.json");
+  const data = await response.json();
+  return data;
+}
 
 // Elementos do DOM
 const playersList = document.getElementById("players-list");
@@ -79,4 +48,9 @@ function toggleNotification(button) {
 }
 
 // Inicializar a página
-renderPlayers();
+async function initializePage() {
+  players = await fetchData();
+  renderPlayers();
+}
+
+initializePage();

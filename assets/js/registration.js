@@ -1,9 +1,11 @@
 // Dados de exemplo
-const teams = [
-  { id: 1, name: "Time A" },
-  { id: 2, name: "Time B" },
-  { id: 3, name: "Time C" },
-];
+let teams = [];
+
+async function fetchData() {
+  const response = await fetch("../json/teams.json");
+  const data = await response.json();
+  return data;
+}
 
 // Elementos do DOM
 const form = document.getElementById("player-registration-form");
@@ -35,4 +37,9 @@ form.addEventListener("submit", function (event) {
 });
 
 // Inicializar a página
-populateTeams();
+async function initializePage() {
+  teams = await fetchData();
+  populateTeams();
+}
+
+initializePage();
