@@ -58,9 +58,17 @@
     <main class="page__main main">
       <h1 class="main__title">Inscrição de Jogadores</h1>
       <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
         class="main__content registration-form"
         id="player-registration-form"
       >
+        <input
+          type="hidden"
+          name="access_key"
+          value="34eca6b6-65ec-432d-b3d3-93410d287e63"
+        />
+
         <div class="registration-form__field">
           <label for="name" class="registration-form__label">Nome:</label>
           <input
@@ -129,6 +137,13 @@
             required
           />
         </div> -->
+
+        <input
+          type="checkbox"
+          name="botcheck"
+          class="hidden"
+          style="display: none"
+        />
 
         <button type="submit" class="registration-form__submit">
           Inscrever Jogador

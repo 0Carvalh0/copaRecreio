@@ -26,14 +26,33 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   const formData = new FormData(form);
-  const playerData = Object.fromEntries(formData.entries());
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
 
-  // Aqui você normalmente enviaria os dados para um servidor
-  console.log("Dados do jogador:", playerData);
-
-  // Limpar o formulário após o envio
-  form.reset();
-  alert("Jogador inscrito com sucesso!");
+  fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: json,
+  })
+    .then(async (response) => {
+      let json = await response.json();
+      if (response.status == 200) {
+        alert("Formulário enviado com sucesso!");
+      } else {
+        console.log(response);
+        alert(json.message);
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+      alert("Alguma coisa deu errado!");
+    })
+    .then(function () {
+      form.reset();
+    });
 });
 
 // Inicializar a página
