@@ -2,37 +2,163 @@
   {
     "id": 1,
     "teamId": 1,
-    "name": "Jogador 1",
+    "name": "Eduardo",
     "number": 10,
-    "age": 25,
+    "age": 18,
     "country": "Brasil",
-    "photo": "https://via.placeholder.com/60"
+    "photo": "../images/players/dragoes/eduardo.jpeg"
   },
   {
     "id": 2,
     "teamId": 1,
-    "name": "Jogador 2",
-    "number": 7,
-    "age": 28,
-    "country": "Argentina",
-    "photo": "https://via.placeholder.com/60"
+    "name": "Erick",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/erick.jpeg"
   },
   {
     "id": 3,
-    "teamId": 2,
-    "name": "Jogador 3",
-    "number": 9,
-    "age": 22,
-    "country": "Portugal",
-    "photo": "https://via.placeholder.com/60"
+    "teamId": 1,
+    "name": "Kauã",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/kaua.jpeg"
   },
   {
     "id": 4,
-    "teamId": 3,
-    "name": "Jogador 4",
-    "number": 11,
-    "age": 26,
-    "country": "Espanha",
-    "photo": "https://via.placeholder.com/60"
+    "teamId": 1,
+    "name": "Lucas",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/lucas.jpeg"
+  },
+  {
+    "id": 5,
+    "teamId": 1,
+    "name": "Paulo",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/paulo.jpeg"
+  },
+  {
+    "id": 6,
+    "teamId": 1,
+    "name": "Pietro",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/pietro.jpeg"
+  },
+  {
+    "id": 7,
+    "teamId": 1,
+    "name": "Renan",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/renan.jpeg"
+  },
+  {
+    "id": 8,
+    "teamId": 1,
+    "name": "Vitor",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/dragoes/vitor.jpeg"
+  },
+  {
+    "id": 9,
+    "teamId": 2,
+    "name": "Breno",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/breno.jpeg"
+  },
+  {
+    "id": 10,
+    "teamId": 2,
+    "name": "Cleiton",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/cleiton.jpeg"
+  },
+  {
+    "id": 11,
+    "teamId": 2,
+    "name": "Daniel",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/daniel.jpeg"
+  },
+  {
+    "id": 12,
+    "teamId": 2,
+    "name": "Erick",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/erick.jpeg"
+  },
+  {
+    "id": 13,
+    "teamId": 2,
+    "name": "Gigante",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/gigante.jpeg"
+  },
+  {
+    "id": 14,
+    "teamId": 2,
+    "name": "Guilherme",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/guilherme.jpeg"
+  },
+  {
+    "id": 15,
+    "teamId": 2,
+    "name": "Gustavo",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/gustavo.jpeg"
+  },
+  {
+    "id": 16,
+    "teamId": 2,
+    "name": "Henrique",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/henrique.jpeg"
+  },
+  {
+    "id": 17,
+    "teamId": 2,
+    "name": "Neto Lessa",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/netoLessa.jpeg"
+  },
+  {
+    "id": 18,
+    "teamId": 2,
+    "name": "Thiago",
+    "number": 10,
+    "age": 18,
+    "country": "Brasil",
+    "photo": "../images/players/botafofo/thiago.jpeg"
   }
 ]

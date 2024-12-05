@@ -2,7 +2,7 @@
 let teams = [];
 
 async function fetchData() {
-  const response = await fetch("./assets/json/teams.json");
+  const response = await fetch("../json/teams.json");
   const data = await response.json();
   return data;
 }
@@ -18,7 +18,7 @@ function renderTeams() {
     teamCard.classList.add("team-card");
     teamCard.innerHTML = `
             <h2 class="team-card__name">${team.name}</h2>
-            <a href="./assets/pages/players.html?team=${team.id}" class="team-card__button">Ver Jogadores</a>
+            <a href="../pages/players.html?team=${team.id}" class="team-card__button">Ver Jogadores</a>
         `;
     teamsList.appendChild(teamCard);
   });

@@ -1,0 +1,168 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg001.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%);
+    z-index: -1;
+}
+
+/* Header */
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+
+.nav__link:hover {
+    color: #4CAF50;
+}
+
+/* Main content */
+.main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.content {
+  
+  text-align: center;
+  max-width: 800px;
+}
+
+.content__container {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+}
+
+.content__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+.content__description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.content__cta {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.content__cta:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer__text {
+    font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 1.2rem;
+    }
+
+    .nav__link {
+        font-size: 0.9rem;
+    }
+
+    .content__container {
+        flex-flow: column;
+    }
+
+    .content__title {
+        font-size: 2rem;
+    }
+
+    .content__description {
+        font-size: 1rem;
+    }
+}
+
