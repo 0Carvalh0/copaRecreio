@@ -27,8 +27,6 @@ function renderPlayers() {
             <img src="${player.photo}" alt="${player.name}" class="player-card__image">
             <div class="player-card__info">
                 <h3 class="player-card__name">${player.name}</h3>
-                <p class="player-card__detail">Número: ${player.number}</p>
-                <p class="player-card__detail">Idade: ${player.age}</p>
                 <p class="player-card__detail">País: ${player.country}</p>
             </div>
             <button class="player-card__notification" onclick="toggleNotification(this)">
