@@ -15,9 +15,6 @@ Este projeto foi desenvolvido utilizando apenas **HTML**, **CSS** e **JavaScript
 - **Detalhes dos Jogadores:** Veja os jogadores de cada time com seus respectivos detalhes.
 - **Cadastro de Jogadores:** Adicione novos jogadores com uma interface intuitiva.
 
-## Capturas de Tela
-*(Insira aqui capturas de tela do site, caso disponíveis.)*
-
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura do site.
 - **CSS**: Estilização e design.
