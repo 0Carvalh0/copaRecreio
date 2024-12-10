@@ -1,41 +1,48 @@
 # Chutaê
 
-Bem-vindo ao **Chutaê**, um site criado para organizar e visualizar a **Copa Recreio**, um campeonato de futebol no estilo interclasses! 🎉⚽
+Bem-vindo ao **Chutaê**, um site criado para organizar e visualizar a Copa Recreio, um campeonato de futebol no estilo interclasses! 🎉⚽
 
-## Visão Geral
-O **Chutaê** permite que você:
+## Índice
+
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Licença](#licença)
+
+## Funcionalidades
+
 - Visualize os times participantes do campeonato.
 - Veja a lista de jogadores de cada time.
 - Cadastre novos jogadores para os times.
 
-Este projeto foi desenvolvido utilizando apenas **HTML**, **CSS** e **JavaScript puro**, mantendo o foco em uma implementação simples e funcional.
-
-## Recursos
-- **Listagem de Times:** Explore todos os times que participam da competição.
-- **Detalhes dos Jogadores:** Veja os jogadores de cada time com seus respectivos detalhes.
-- **Cadastro de Jogadores:** Adicione novos jogadores com uma interface intuitiva.
-
 ## Tecnologias Utilizadas
+
 - **HTML**: Estrutura do site.
 - **CSS**: Estilização e design.
 - **JavaScript**: Funcionalidades interativas.
 
-## Como Usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/0Carvalh0/chutae.git
-   ```
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd chutae
-   ```
-3. Abra o arquivo `index.html` no seu navegador preferido.
+## Instalação
 
-## Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou novas funcionalidades.
+Se deseja rodar o projeto localmente, siga os passos abaixo:
 
-## Autor
-Este projeto foi desenvolvido por **João Victor**. Confira mais projetos no meu [GitHub](https://github.com/0Carvalh0).
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/0Carvalh0/copaRecreio.git
+   ```
+
+2. Acesse o diretório do projeto::
+
+   ```bash
+   cd copaRecreio
+   ```
+
+3. Abra o arquivo index.html no seu navegador.
+
+   ```bash
+   open index.html
+   ```
 
 ## Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).
+
+Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
